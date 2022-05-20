@@ -17,4 +17,7 @@ jobs:
           stack: "container"
           region: "eu"
         env:
-          HD_warp_id: ${{secrets.warp_id}}
+          HD_WARP_ID: ${{secrets.WARP_ID}}
+          HD_SEND_LOG: ${{secrets.SEND_LOG}}
+          HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
+          HD_CHANNEL_ID: ${{secrets.CHANNEL_ID}}
