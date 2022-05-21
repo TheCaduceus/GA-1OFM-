@@ -21,3 +21,4 @@ jobs:
           HD_SEND_LOG: ${{secrets.SEND_LOG}}
           HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
           HD_CHANNEL_ID: ${{secrets.CHANNEL_ID}}
+          HD_HIDE_ID: ${{secrets.HIDE_ID}}
