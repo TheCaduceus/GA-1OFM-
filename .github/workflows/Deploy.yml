@@ -15,7 +15,7 @@ jobs:
           usedocker: false
           docker_heroku_process_type: worker
           stack: "container"
-          region: "eu"
+          region: "us"
         env:
           HD_WARP_ID: ${{secrets.WARP_ID}}
           HD_SEND_LOG: ${{secrets.SEND_LOG}}
